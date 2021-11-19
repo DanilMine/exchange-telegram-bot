@@ -4,7 +4,8 @@
   "description": "a telegram chat-bot application build in node-js runtime environment and telegraf library",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,7 @@
   "dependencies": {
     "mysql": "^2.18.1",
     "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.14",
     "telegraf": "^3.39.0"
   }
 }
